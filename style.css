@@ -1,0 +1,82 @@
+* 
+{
+    margin: 0;
+    padding: 0;
+}
+
+
+body 
+{
+    background-color: rgb(93, 228, 214); 
+   
+}
+
+#overlay 
+{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+form 
+{
+    max-width: 550px; 
+    background: white;
+    margin: 17vh auto; 
+    padding: 40px;
+    border-radius: 3px;
+    box-sizing: border-box;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1); 
+}
+
+
+label 
+{
+    display: block;
+}
+
+input, textarea 
+{
+    width: 100%;
+    padding: 10px;
+    border: none;
+    outline: none;
+    border-bottom: 2px solid rgb(233, 229, 11);
+    box-sizing: border-box;
+    resize: none; 
+}
+
+input[type="submit"] 
+{
+    background-color: green;
+    color: white;
+    padding: 10px ;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer; 
+}
+
+input[type="submit"]:hover 
+{
+    background-color: darkgreen; 
+}
+
+.error {
+    color: red;
+   
+}
+
+#success 
+{
+    color: green;
+  
+}
+
+input:focus, textarea:focus
+{
+    border-bottom: 2px solid darkgreen; 
+    box-shadow: 0 0 5px rgba(0, 128, 0, 0.5); 
+}
+
